@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LEVIE_1202152324_MODUL2</string>
+
+    <string name="button_tanggal">Date</string>
+    <string name="button_waktu">Time</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="date">"Tanggal Pengambilan: "</string>
+    <string name="time">"Waktu Pengambilan: "</string>
+
+
+    <string-array name="array">
+
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+    </string-array>
+
+</resources>

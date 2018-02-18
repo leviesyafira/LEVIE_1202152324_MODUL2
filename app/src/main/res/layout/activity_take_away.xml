@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.levie.levie_1202152324_modul2.TakeAway">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Identitas Pemesanan: "
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Nama Anda"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textColor="#fc07ae"/>
+
+    <EditText
+        android:id="@+id/no_hp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukan No HP Anda"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textColor="#fc07ae"/>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Alamat Anda"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textColor="#fc07ae"/>
+
+    <EditText
+        android:id="@+id/catatan"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Catatan"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textColor="#fc07ae"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Tanggal Pengambilan"
+            android:onClick="showDatePicker"/>
+
+        <Button
+            android:id="@+id/button_waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Waktu Pengambilan"
+            android:onClick="showTimePicker"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="pilih_pesanan"
+        android:layout_marginTop="5dp"
+        android:text="Pilih Pesanan" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.levie.levie_1202152324_modul2.DineIn">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Customer"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="35dp" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:hint="Masukan Nama Anda"
+        android:textColor="#f20ea6"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nomor Meja: "
+            android:textSize="18dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_nomeja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/pilih_pesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Pesanan"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="pilih_pesanan"/>
+
+</LinearLayout>
